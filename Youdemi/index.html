@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary meta tags -->
+    <title>Youdemi | Better Learning Future</title>
+    <meta name="title" content="Youdemi, Better Learning Future" />
+    <meta
+      name="description"
+      content="This is a education html template made by prabirsingh
+"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <!-- Custom font link -->
+    <link rel="stylesheet" href="./font/font.css" />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./images/hero-banner.png" />
+    <link rel="preload" as="image" href="./images/hero-bg.png" />
+  </head>
+  <body>
+    <!-- 
+      -PRELOADER 
+    -->
+    <div class="preloader" data-preloader>
+      <div class="circle" data-circle></div>
+    </div>
+
+    <!-- 
+      -HEADER 
+    -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./images/logo.svg"
+            width="145"
+            height="27"
+            alt="Youdemi home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./images/logo.svg"
+                width="145"
+                height="27"
+                alt="Youdemi home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Courses</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link title-sm" data-nav-link
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">Start Free Trial</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+          - #HERO
+         -->
+        <section
+          class="section hero has-bg-image"
+          aria-labelledby="hero-label"
+          style="background-image: url('./images/hero-bg.png')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="headline-lg" id="hero-label">
+                Better <span class="span">Learning Future </span>Starts With
+                Youdemi
+              </h1>
+              <p class="title-md has-before">
+                It is long established fact that reader distracted by the
+                readable content.
+              </p>
+              <div class="btn-group">
+                <a href="#" class="btn btn-primary">Get Started Now</a>
+                <a href="#" class="btn btn-secondary">Get Started Now</a>
+              </div>
+            </div>
+
+            <figure class="hero-banner">
+              <img
+                src="./images/hero-banner.png"
+                width="590"
+                height="620"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+          - #CATEGORY
+         -->
+        <section
+          class="section category has-bg-image"
+          aria-labelledby="category-label"
+          style="background-image: url('./images/category-bg.png')"
+        >
+          <div class="container">
+            <p
+              class="title-sm text-center section-subtitle"
+              id="category-label"
+            >
+              Course Categories
+            </p>
+            <h2 class="headline-md text-center section-title">
+              Browse Top <span class="span has-after">Categories</span>
+            </h2>
+            <ul class="grid-list">
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-1.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="Data Science icon"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">Data Science</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="Data Science Category"
+                  ></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-2.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="UI/UX Design"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">UI/UX Design</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="UI/UX Design Category"
+                  ></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-3.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="Modern Physics"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">Modern Physics</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="Modern Physics Category"
+                  ></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-4.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="Music Production"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">Music Production</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="Music Production Category"
+                  ></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-5.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="Data Science"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">Data Science</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="Data Science Category"
+                  ></a>
+                </div>
+              </li>
+
+              <li>
+                <div class="card category-card">
+                  <div class="card-icon">
+                    <img
+                      src="./images/category-6.svg"
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                      alt="Finances"
+                    />
+                  </div>
+                  <div>
+                    <h3 class="title-lg">Finances</h3>
+                    <p class="title-sm">68 Courses</p>
+                  </div>
+                  <a
+                    href="#"
+                    class="layer-link"
+                    aria-label="Finances Category"
+                  ></a>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-primary">View All Categories</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Custom js link -->
+    <script src="./js/script.js"></script>
+    <!-- Icon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
